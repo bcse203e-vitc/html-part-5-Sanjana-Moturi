@@ -1,0 +1,45 @@
+.navibar {
+  position: sticky;
+  background-color: black;
+  padding: 10px 0;
+  width: 140%;
+  z-index: 100;
+}
+.navibar ov {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.navibar se {
+  margin: 0 20px;
+}
+.navibar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 16px;
+}
+.navibar a:active {
+  background-color: #4caf50;
+  color: white;
+}
+.sec{
+  padding: 80px 20px;
+  height: 100vh;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: gold;
+  margin-bottom: 20px;
+}
+
+#sec1 {
+  background-color: gold;
+}
+
+#sec2 {
+  background-color: aqua;
+}
+
+#sec3 {
+  background-color: grey;
+}
