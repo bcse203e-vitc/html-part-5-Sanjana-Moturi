@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  text-align: center;
+}
+.animated-header {
+  font-size: 100px;
+  color: red;
+  animation: colorMove 2s infinite alternate, sizemove 2s infinite alternate,
+    positionmove 2s infinite alternate;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+@keyframes colorMove {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: orange;
+  }
+}
+@keyframes sizemove {
+  0% {
+    font-size: 60px;
+  }
+  50% {
+    font-size: 70px;
+  }
+  100% {
+    font-size: 80px;
+  }
+}
+@keyframes positionmove {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.animated-header:hover {
+  transform: scale(1.1);
+}
