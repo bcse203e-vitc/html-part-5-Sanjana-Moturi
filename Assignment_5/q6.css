@@ -10,9 +10,9 @@ header {
 .animated-header {
   font-size: 100px;
   color: red;
-  animation: colorMove 2s infinite alternate, sizemove 2s infinite alternate,
-    positionmove 2s infinite alternate;
-  transition: transform 0.2s ease, color 0.2s ease;
+  animation: colorMove 4s infinite alternate, sizemove 4s infinite alternate,
+    positionmove 4s infinite alternate;
+  transition: transform 0.4s ease, color 0.4s ease;
 }
 @keyframes colorMove {
   0% {
